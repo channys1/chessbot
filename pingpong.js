@@ -11,7 +11,7 @@ const client = new Discord.Client();
 console.log('discord client instance created');
 
 // The token of your bot - https://discordapp.com/developers/applications/me
-const token = 'chessbot';
+const token = 'MzIwMzY5MTg2MDcxMTE3ODI2.DBSsoQ.zk9v_C6U4JZwfc7-O1vMg_eCC1s';
 console.log('bot token created');
 
 // The ready event is vital, it means that your bot will only start reacting to information
