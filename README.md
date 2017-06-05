@@ -1,1 +1,6 @@
 # chessbot
+
+Chessbot is a discord bot written in Javascript, using Node.js and Discord.js.
+
+Functionality:
+The purpose of chessbot is to allow discord users to play chess games between each other. A command is given to start a new game. After this, one user each is assigned as the white or black player, and they are allowed to commit moves via commands written in standard chess notation. The bot will ignore commands given by users it does not recognize as respective players of their specific color, and will only allow valid moves during that player's legal turn. The bot will recognize valid movements on the board, and ignore commands given that provide an invalid move, repeating an error message. The bot will also recognize the condition of both check and checkmate when it occurs on the board, declaring it along with the victory of the winning player. The bot will be able to provide graphical output of the board position, as well as any pieces currently removed from the game via capture. The potential for multiple games to run on the same server is intended, but the bot will be required to specifically recognize the respective players of any given game currently running.
